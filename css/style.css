@@ -17,6 +17,11 @@ img.produto {
     clip-path: circle(25%);
 }
 
-@media screen and (width: 600px) {
-    
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url('/imagens/background.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-size: 1300px !important; 
+    }   
 }
