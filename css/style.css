@@ -3,25 +3,38 @@
 body {
     background-image: url('/imagens/background.png');
     background-position: center center;
-    background-size: cover;
+    background-size: 1500px auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+span {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+}
 img.perfil {
     clip-path: circle(32%);
-    width: 400px;
+    width: 300px;
 }
 img.produto {
-    width: 120px;
+    width: 40px;
     height: auto;
-    clip-path: circle(43%);
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 600px) {
     body {
         background-image: url('/imagens/background.png');
         background-position: bottom bottom;
         background-size: cover;
-        background-size: 1300px !important;
+        background-size: 1500px auto;
     }   
+    img.perfil {
+        clip-path: circle(32%);
+        width: 210px;
+    }
 }
