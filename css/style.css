@@ -9,11 +9,22 @@ body {
 span {
     font-size: 16px;
 }
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
 a {
     text-decoration: none;
-}
-a:hover {
-    color: yellow;
 }
 img.perfil {
     clip-path: circle(32%);
@@ -36,5 +47,9 @@ img.produto {
     img.perfil {
         clip-path: circle(32%);
         width: 210px;
+    }
+    .whatsapp {
+        bottom: 599px;
+        right: 8px;
     }
 }
