@@ -13,7 +13,6 @@ span {
     position:fixed;
     width:60px;
     height:60px;
-    bottom:40px;
     right:40px;
     background-color:#25d366;
     color:#FFF;
@@ -37,7 +36,7 @@ img.produto {
     margin-right: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     body {
         background-image: url('/imagens/background.png');
         background-position: bottom bottom;
@@ -49,7 +48,7 @@ img.produto {
         width: 210px;
     }
     .whatsapp {
-        bottom: 599px;
+        bottom: 90%;
         right: 8px;
     }
 }
